@@ -1,0 +1,44 @@
+header{
+    width: 100%;
+    height:680px;
+    background-image: url(../img/banner-t1\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+      /* Adiciona um tom escuro */
+      background-color: rgba(0, 0, 0, 0.473); /* Preto com 50% de transparência */
+      background-blend-mode: darken;
+}
+
+header .header_txt{
+  width: 55%;
+  height: 50%;
+  border: 2px solid red;
+  position: relative;
+  top: 30%;
+  left: 7%;
+}
+
+header .header_txt h1{
+  font-size: 50px;
+  color: white;
+}
+header .header_txt p{
+  margin-top: 40px;
+  font-size: 25px;
+  color: white;
+  margin-bottom: 40px;
+}
+header .header_txt a{
+  margin-top: 60px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 55px;
+  background-color: #d1005d;
+  border-radius: 5px;
+  font-weight: 600;
+}
+header .header_txt a:hover{
+ background-color: #981353 ;
+}
+
