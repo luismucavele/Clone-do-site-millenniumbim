@@ -1,21 +1,63 @@
 header{
     width: 100%;
     height:680px;
-    background-image: url(../img/banner-t1\ \(1\).jpg);
     background-size: cover;
     background-position: center;
-      /* Adiciona um tom escuro */
-      background-color: rgba(0, 0, 0, 0.473); /* Preto com 50% de transparência */
-      background-blend-mode: darken;
+    
+}
+/* Slider que ocupa o fundo do header */
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 680px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden; /* Evita problemas de sobreposição */
+}
+
+/* Container das imagens */
+.slides {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Cada imagem do slider */
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Primeira imagem visível por padrão */
+.slide:first-child {
+  opacity: 1;
+}
+
+/* Adiciona um tom escuro sobre as imagens */
+.slider::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.39);
+  z-index: 1; /* Garante que a camada escura fica acima das imagens */
 }
 
 header .header_txt{
-  width: 55%;
-  height: 50%;
-  border: 2px solid red;
+  width: 60%;
+  height: 60%;
   position: relative;
   top: 30%;
   left: 7%;
+
 }
 
 header .header_txt h1{
@@ -33,7 +75,7 @@ header .header_txt a{
   font-size: 18px;
   color: white;
   text-decoration: none;
-  padding: 10px 55px;
+  padding: 10px 60px;
   background-color: #d1005d;
   border-radius: 5px;
   font-weight: 600;
