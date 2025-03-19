@@ -3,7 +3,7 @@ header nav {
   height: 90px; /* Tamanho inicial */
   display: flex;
   align-items: center;
-  padding: 0px 100px;
+  padding: 0px 150px;
   transition: all 0.08s ease-in-out;
   position: fixed; /* Mantém a navbar fixa */
   top: 30px;
@@ -32,7 +32,7 @@ nav .links ul {
 nav .links ul li a {
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
   padding: 35px 10px;
 }
@@ -68,7 +68,7 @@ nav .logo img {
 }
 
 .acesso a p {
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 500;
   padding: 10px 20px;
   background-color: white;
@@ -92,7 +92,7 @@ nav .logo img {
   position: fixed;
   z-index: 1000;
   top: 0;
-  padding: 15px 100px;
+  padding: 15px 150px;
 
 }
 .txt {
@@ -128,7 +128,6 @@ nav .logo img {
   height: 100%;
 }
 .English ul li a {
-  cursor: text;
   text-decoration: none;
   color: white;
   font-size: 12px;
