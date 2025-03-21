@@ -1,15 +1,14 @@
-header{
-    width: 100%;
-    height:100vh;
-    background-size: cover;
-    background-position: center;
-    
+header {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 /* Slider que ocupa o fundo do header */
 .slider {
   position: absolute;
   width: 100%;
-  height:100vh;
+  height: 100vh;
   top: 0;
   left: 0;
   z-index: -1;
@@ -20,7 +19,7 @@ header{
 .slides {
   position: relative;
   width: 100%;
-  height:100vh;
+  height: 100vh;
 }
 
 /* Cada imagem do slider */
@@ -51,26 +50,25 @@ header{
   z-index: 1; /* Garante que a camada escura fica acima das imagens */
 }
 
-header .header_txt{
+header .header_txt {
   width: 60%;
   height: 60%;
   position: relative;
-  top:30%;
+  top: 30%;
   left: 100px;
-
 }
 
-header .header_txt h1{
+header .header_txt h1 {
   font-size: 50px;
   color: white;
 }
-header .header_txt p{
+header .header_txt p {
   margin-top: 40px;
   font-size: 25px;
   color: white;
   margin-bottom: 40px;
 }
-header .header_txt a{
+header .header_txt a {
   margin-top: 60px;
   font-size: 18px;
   color: white;
@@ -80,7 +78,6 @@ header .header_txt a{
   border-radius: 10px;
   font-weight: 600;
 }
-header .header_txt a:hover{
- background-color: #981353 ;
+header .header_txt a:hover {
+  background-color: #981353;
 }
-
