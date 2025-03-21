@@ -1,1 +1,1 @@
-clonagem do site do Banco Millennium Bim.
+clone do site do Banco Millennium Bim.
